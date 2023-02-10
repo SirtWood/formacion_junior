@@ -1,0 +1,1 @@
+"Esta carpeta es para el curso 'Aprende HTML construyendo una aplicación con fotos de gatos'".
