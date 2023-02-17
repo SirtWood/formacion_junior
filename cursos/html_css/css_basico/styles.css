@@ -1,0 +1,22 @@
+h1, h2, p {
+    text-align: center;
+}
+
+body{
+    background-image: url(https://www.elpunto.com.co/wp-content/uploads/2020/08/papeleria.jpg);
+}
+
+.menu{
+    width: 80%;
+    background-color: darkseagreen;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.article{
+    text-align: left;
+}
+
+.price{
+    text-align: right;
+}
