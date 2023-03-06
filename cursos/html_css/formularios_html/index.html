@@ -14,46 +14,52 @@
     <form action="https://register-demo.freecodecamp.org" method="post">
         <fieldset>
             <label for="nombre">Ingresa tu primer nombre: 
-                <input type="text" id="nombre" required>
+                <input type="text" id="nombre" name="nombre" required>
             </label>
             <label for="apellidos">Ingresa tus apellidos: 
-                <input type="text" id="apellidos" required>
+                <input type="text" id="apellidos" name="apellidos" required>
             </label>
             <label for="correo">Ingresa tu correo electrónico: 
-                <input type="email" id="correo" required>
+                <input type="email" id="correo" name="correo" required>
             </label>
             <label for="contraseña">Crea una nueva contraseña: 
-                <input type="password" id="contraseña" pattern="[a-z0-5]{8,}" required>
+                <input type="password" id="contraseña" pattern="[a-z0-5]{8,}" name="contraseña" required>
             </label>
         </fieldset>
         <fieldset>
             <label for="cuenta_personal">
-                <input type="radio" name="tipo_cuenta" id="cuenta_personal"> Cuenta personal
+                <input type="radio" name="tipo_cuenta" id="cuenta_personal" class="inline"> Cuenta personal
             </label>
             <label for="cuenta_negocios">
-                <input type="radio" name="tipo_cuenta" id="cuenta_negocios"> Cuenta de negocios
+                <input type="radio" name="tipo_cuenta" id="cuenta_negocios" class="inline"> Cuenta de negocios
             </label>
             <label for="terminos_condiciones">
-                <input type="checkbox" required id="terminos_condiciones"> Acepto los<a href="https://www.freecodecamp.org/news/terms-of-service/"> términos y condiciones</a>
+                <input type="checkbox" id="terminos_condiciones" name="terminos_condiciones" class="inline" required> Acepto los<a href="https://www.freecodecamp.org/news/terms-of-service/"> términos y condiciones</a>
             </label>
         </fieldset>
         <fieldset>
-            <label for="">
+            <label for="foto_perfil">
                 Sube una foto de perfil:
-                <input type="file"></input>
+                <input type="file" id="foto_perfil" name="foto_perfil"></input>
             </label>
-            <label for="">
-                <input type="number" min="13" max="120"> Ingresa tu edad (años):</input>
+            <label for="edad">
+                Ingresa tu edad (años):
+                <input type="number" min="13" max="120" id="edad" name="edad"></input>
             </label>
-            <label for="">
+            <label for="referencia">
                 ¿Cómo supiste de nosotros?
-                <select name="" id="">
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
+                <select name="" id="referencia" name="referencia">
+                    <option value="">(Seleccione uno)</option>
+                    <option value="1">Noticias FreeCodeCamp</option>
+                    <option value="2">Canal en YouTube de FreeCodeCamp</option>
+                    <option value="3">Foro de FreeCodeCamp</option>
+                    <option value="4">Otro</option>
                 </select>
+            </label>
+            <label for="biografia">
+                Provee una biografía: 
+
+                <textarea id="biografia" rows="3" cols="30" name="bio" placeholder="Me gusta codificar en la playa..."></textarea>
             </label>
         </fieldset>
         <input type="submit" value="Submit">
