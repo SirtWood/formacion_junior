@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Documento</title>
+</head>
+<body>
+    <h1>Formulario de registro</h1>
+    <p>Por favor llene este formulario con la información requerida. </p>
+
+    <form action="https://register-demo.freecodecamp.org" method="post">
+        <fieldset>
+            <label for="nombre">Ingresa tu primer nombre: 
+                <input type="text" id="nombre" required>
+            </label>
+            <label for="apellidos">Ingresa tus apellidos: 
+                <input type="text" id="apellidos" required>
+            </label>
+            <label for="correo">Ingresa tu correo electrónico: 
+                <input type="email" id="correo" required>
+            </label>
+            <label for="contraseña">Crea una nueva contraseña: 
+                <input type="password" id="contraseña" pattern="[a-z0-5]{8,}" required>
+            </label>
+        </fieldset>
+        <fieldset>
+            <label for="cuenta_personal">
+                <input type="radio" name="tipo_cuenta" id="cuenta_personal"> Cuenta personal
+            </label>
+            <label for="cuenta_negocios">
+                <input type="radio" name="tipo_cuenta" id="cuenta_negocios"> Cuenta de negocios
+            </label>
+            <label for="terminos_condiciones">
+                <input type="checkbox" required id="terminos_condiciones"> Acepto los<a href="https://www.freecodecamp.org/news/terms-of-service/"> términos y condiciones</a>
+            </label>
+        </fieldset>
+        <fieldset>
+            <label for="">
+                Sube una foto de perfil:
+                <input type="file"></input>
+            </label>
+            <label for="">
+                <input type="number" min="13" max="120"> Ingresa tu edad (años):</input>
+            </label>
+            <label for="">
+                ¿Cómo supiste de nosotros?
+                <select name="" id="">
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+            </label>
+        </fieldset>
+        <input type="submit" value="Submit">
+    </form>
+    
+</body>
+</html>
