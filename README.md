@@ -13,3 +13,9 @@ Aprendizaje desde cero con finalidad de llegar a un nivel junior utilizando Pyth
 ### Curso impartido por: 
 **Juan David Sánchez Carvajal**
 ***
+
+### Ejecutar:
+`index.html`
+
+### Enlaces relacionados:
+[Página aliada]()
