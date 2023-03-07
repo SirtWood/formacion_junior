@@ -18,5 +18,5 @@ Aprendizaje desde cero con finalidad de llegar a un nivel junior utilizando Pyth
 `index.html`
 
 ### Enlaces relacionados:
-[Página aliada 1](https://github.com/juancarvajaling)  
-[Página aliada 2](https://www.linkedin.com/in/juan-david-sanchez-carvajal-b27000158/)
+[GitHub Juan David Sánchez C.](https://github.com/juancarvajaling)  
+[LinkedIn Juan David Sánchez C.](https://www.linkedin.com/in/juan-david-sanchez-carvajal-b27000158/)
