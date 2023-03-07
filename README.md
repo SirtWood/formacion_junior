@@ -18,4 +18,4 @@ Aprendizaje desde cero con finalidad de llegar a un nivel junior utilizando Pyth
 `index.html`
 
 ### Enlaces relacionados:
-[Página aliada]()
+[Página aliada](https://github.com/juancarvajaling)
