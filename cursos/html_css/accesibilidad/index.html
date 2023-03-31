@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Legend Of Zelda" />
+    <link rel="stylesheet" href="styles.css">
+    <title>The Legend Of Zelda</title>
+</head>
+<body>
+    <header>
+        <img src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg" alt="logo" id="logo">
+        <h1>HTML/CSS Quiz</h1>
+        <nav>
+            <ul>
+                <li><a href="#student-info">INFO</a></li>
+                <li><a href="#html-questions">HTML</a></li>
+                <li><a href="#css-questions">CSS</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <form action="https://freecodecamp.org/practice-project/accessibility-quiz" method="post">
+            <section role="region" aria-labelledby="student-info">
+                <h2 id="student-info">Información del estudiante</h2>
+                <div class="info">
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name" name="name" placeholder="">
+                </div>
+                <div class="info">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="email" placeholder="">
+                </div>
+                <div class="info">
+                    <label for="date">Fecha de nacimiento<span class="sr-only">(Fecha de nacimiento)</span></label>
+                    <input type="date" id="date" name="date">
+                </div>
+            </section>
+            <section role="region" aria-labelledby="html-questions">
+                <h2 id="html-questions">Preguntas sobre HTML</h2>
+                <div class="question-block">
+                    <p>1</p>
+                    <fieldset class="question" name="Pregunta 1 sobre HTML">
+                        <ul class="answers-list">
+                            <li>
+                                <label for="q1-a1"><input type="radio" id="q1-a1" value="verdadero" name="q1">Verdadero</label>
+                            </li>
+                            <li>
+                                <label for="q1-a2"><input type="radio" id="q1-a2" value="Falso" name="q1">Falso</label>
+                            </li>
+                        </ul>
+                        <legend>
+                            ¿Es seguro usar el atributo "require"?
+                        </legend>
+                    </fieldset>
+                </div>
+                <div class="question-block">
+                    <p>2</p>
+                    <fieldset class="question" name="Pregunta 2 sobre HTML">
+                        <ul class="answers-list">
+                            <li>
+                                <label for="q2-a1"><input type="radio" id="q2-a1" value="verdadero" name="q2">Verdadero</label>
+                            </li>
+                            <li>
+                                <label for="q2-a2"><input type="radio" id="q2-a2" value="Falso" name="q2">Falso</label>
+                            </li>
+                        </ul>
+                        <legend>
+                            ¿El atributo para referirse a un id es "#"?
+                        </legend>
+                    </fieldset>
+                </div>
+            </section>
+            <section role="region" aria-labelledby="css-questions">
+                <h2 id="css-questions">Preguntas sobre CSS</h2>
+            </section>
+        </form>
+    </main>
+    
+</body>
+</html>
