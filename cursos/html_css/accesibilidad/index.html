@@ -14,9 +14,9 @@
         <h1>HTML/CSS Quiz</h1>
         <nav>
             <ul>
-                <li><a href="#student-info">INFO</a></li>
-                <li><a href="#html-questions">HTML</a></li>
-                <li><a href="#css-questions">CSS</a></li>
+                <li><a href="#student-info" accesskey="i">INFO</a></li>
+                <li><a href="#html-questions" accesskey="h">HTML</a></li>
+                <li><a href="#css-questions" accesskey="c">CSS</a></li>
             </ul>
         </nav>
 
@@ -75,9 +75,35 @@
             </section>
             <section role="region" aria-labelledby="css-questions">
                 <h2 id="css-questions">Preguntas sobre CSS</h2>
+                <div class="formrow">
+                    <div class="question-block">
+                        <label for="pregunta1">¿Las clases se representan con el atributo "."?</label>
+                    </div>
+                    <div class="answer">
+                        <select name="" id="pregunta1" name="pregunta1" required>
+                            <option value="">Selecciona una opción</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+                    <div class="question-block">
+                        <label for="pregunta2">¿Las pseudo clases se representan con el elemento seguido de "::"?</label>
+                    </div>
+                    <div class="answer">
+                        <textarea name="" id="pregunta2" name="pregunta2" cols="30" rows="10" placeholder="Escribe tu respuesta..."></textarea>
+                    </div>
+                </div>
             </section>
+            <button type="submit">Enviar</button>
         </form>
     </main>
-    
+    <footer>
+        <address>
+            <a href="https://freecodecamp.org">freeCodeCamp</a><br/>
+            Envigado<br/>
+            Antioquia<br/>
+            Colombia
+        </address>
+    </footer>
 </body>
 </html>
