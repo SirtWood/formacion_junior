@@ -1,11 +1,53 @@
 
-img{
+body{
+    background: #827717;
+    color: #1b1b32;
+    font-family: Helvetica;
+    margin: 0;
+}
+
+h1{
+    color: #f1be32;
+    font-size: 30px;
+    text-align: center;
+}
+
+p{
+    margin-top: 5px;
+    padding-left: 15px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#img-div{
     display: block;
     align-content: center;
+    margin: 80px 320px;
 }
 
 #image{
     max-width: 100%;
     height: auto;
     align-content: center;
+}
+
+section{
+    width: 80%;
+    margin-bottom: 10px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 600px;
+}
+
+h3{
+    text-align: center;
+}
+
+ul > li{
+    margin: 20px auto;
+}
+
+h4{
+    margin: 50px 0;
 }
